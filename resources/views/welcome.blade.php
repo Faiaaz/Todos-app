@@ -80,7 +80,9 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">Todos App</div>
+                <div class="title m-b-md">
+                    <a href="/todos">Todos</a>
+                </div>
 
 
             </div>
