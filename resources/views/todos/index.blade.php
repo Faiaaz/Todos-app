@@ -17,6 +17,11 @@
                                 {{$todo->name}}
 
                                 <a href="\todos\{{$todo->id}}" class="btn btn-primary btn-sm float-right">view</a>
+
+                                @if($todo->completed == false)
+                                    <a href="\todos\{{$todo->id}}\complete" class="btn btn-warning btn-sm float-right mr-1">Complete Todo</a>
+
+                                @endif
                             </li>
 
                         @endforeach
