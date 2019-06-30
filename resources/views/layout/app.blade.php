@@ -21,6 +21,9 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/">todos <span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/new-todos">create todos <span class="sr-only">(current)</span></a>
+            </li>
     </div>
 </nav>
 <div class="container">
